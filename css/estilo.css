@@ -25,7 +25,6 @@ body {
 .navbar ul{
     display: flex;
     list-style-type: none;
-    box-sizing:border-box;
 }
 
 .navbar ul li{
@@ -49,30 +48,22 @@ body {
 
 #contenedor img{
     width: 100%;
-    
-    
+    display: flex;
 }
 
 
 .segundo{
     background: rgb(157, 203, 228);
-    width: 42%;
+    width: 50%;
     padding: 1%;
-    box-sizing: border-box;
     display: flex;
-    height: 500px;
-
-    
 }
 
 .tercero{
     background: rgb(180, 238, 204);
     padding: 1%;
     display: flex;
-    width: 60%;
-    
-    
-    
+    width: 50%;
 }
 
 .textos {
@@ -98,8 +89,10 @@ body {
 
 
 
-@media screen and (min-width: 300px) and (max-width:1000px) {
+@media screen and (min-width: 500px) and (max-width:800px) {
     
-
+    body {
+        background-color: rgb(164, 141, 185);
+    }
 
 }
