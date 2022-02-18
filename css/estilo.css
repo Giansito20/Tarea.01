@@ -89,10 +89,34 @@ body {
 
 
 
-@media screen and (min-width: 500px) and (max-width:800px) {
+@media screen and (min-width: 1px) and (max-width:800px) {
     
     body {
         background-color: rgb(164, 141, 185);
+    }
+
+    #contenedor img{
+        width: 100%;
+        flex-wrap: wrap
+    }
+    
+    
+    .segundo{
+        background: rgb(157, 203, 228);
+        width: 50%;
+        padding: 1%;
+        flex-wrap: wrap;
+    }
+    
+    .tercero{
+        background: rgb(180, 238, 204);
+        padding: 1%;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    .navbar ul{
+        flex-wrap: wrap;
+        list-style-type: none;
     }
 
 }
