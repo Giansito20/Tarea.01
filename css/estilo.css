@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "arial";
+    
+}
+
+body {
+    background-color:bisque
+}
+
+.header{
+    background: rgb(197, 175, 175);
+    color: tomato;
+    padding: 0.5em 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 30%;
+    align-self: auto;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    box-sizing:border-box;
+}
+
+.navbar ul li{
+    padding: 1em;
+}
+
+.navbar ul li a:hover{
+    color: red;
+}
+
+
+#contenedor{
+    
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    
+    
+  
+}
+
+#contenedor img{
+    width: 100%;
+    
+    
+}
+
+
+.segundo{
+    background: rgb(157, 203, 228);
+    width: 42%;
+    padding: 1%;
+    box-sizing: border-box;
+    display: flex;
+    height: 500px;
+
+    
+}
+
+.tercero{
+    background: rgb(180, 238, 204);
+    padding: 1%;
+    display: flex;
+    width: 60%;
+    
+    
+    
+}
+
+.textos {
+    margin-left: 20px;
+}
+
+.footer{
+    margin-top: 4em;
+    border-top: 5px solid white;
+    padding: 2em 3em;
+    background: rgb(146, 146, 150);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data{
+    background:rgb(255, 255, 255);
+    padding: 2em;
+    color: black;
+    border-radius: 15px;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width:1000px) {
+    
+
+
+}
